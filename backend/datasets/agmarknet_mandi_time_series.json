@@ -1,0 +1,63 @@
+{
+  "source": "data.gov.in / AGMARKNET (Directorate of Marketing & Inspection)",
+  "commodities": {
+    "Wheat": {
+      "base_price": 2450,
+      "unit": "Quintal",
+      "msp": 2275,
+      "volatility_score": "Low (6.2%)",
+      "trend_direction": "Bullish",
+      "mandis": [
+        { "name": "Khanna Grain Market, Punjab", "state": "Punjab", "distance_km": 18, "current_price": 2480, "arrival_volume_qtl": 4500, "daily_delta": "+₹30" },
+        { "name": "Ludhiana Central Mandi", "state": "Punjab", "distance_km": 8, "current_price": 2450, "arrival_volume_qtl": 6200, "daily_delta": "Base" },
+        { "name": "Karnal APMC Yard", "state": "Haryana", "distance_km": 35, "current_price": 2495, "arrival_volume_qtl": 3800, "daily_delta": "+₹45" },
+        { "name": "Sirhind Mandi", "state": "Punjab", "distance_km": 28, "current_price": 2440, "arrival_volume_qtl": 2900, "daily_delta": "-₹10" }
+      ],
+      "30_day_forecast": [
+        { "day": 1, "predicted_price": 2450, "lower_bound": 2420, "upper_bound": 2480 },
+        { "day": 7, "predicted_price": 2490, "lower_bound": 2450, "upper_bound": 2530 },
+        { "day": 14, "predicted_price": 2540, "lower_bound": 2490, "upper_bound": 2590 },
+        { "day": 21, "predicted_price": 2610, "lower_bound": 2550, "upper_bound": 2670 },
+        { "day": 30, "predicted_price": 2680, "lower_bound": 2610, "upper_bound": 2750 }
+      ]
+    },
+    "Rice": {
+      "base_price": 3820,
+      "unit": "Quintal",
+      "msp": 2203,
+      "volatility_score": "Medium (11.4%)",
+      "trend_direction": "Bullish",
+      "mandis": [
+        { "name": "Karnal Rice Complex", "state": "Haryana", "distance_km": 42, "current_price": 3890, "arrival_volume_qtl": 8200, "daily_delta": "+₹70" },
+        { "name": "Amritsar Mandi", "state": "Punjab", "distance_km": 65, "current_price": 3850, "arrival_volume_qtl": 5400, "daily_delta": "+₹30" },
+        { "name": "Ludhiana Mandi", "state": "Punjab", "distance_km": 8, "current_price": 3820, "arrival_volume_qtl": 9100, "daily_delta": "Base" }
+      ],
+      "30_day_forecast": [
+        { "day": 1, "predicted_price": 3820, "lower_bound": 3760, "upper_bound": 3880 },
+        { "day": 7, "predicted_price": 3880, "lower_bound": 3810, "upper_bound": 3950 },
+        { "day": 14, "predicted_price": 3950, "lower_bound": 3870, "upper_bound": 4030 },
+        { "day": 21, "predicted_price": 4040, "lower_bound": 3950, "upper_bound": 4130 },
+        { "day": 30, "predicted_price": 4150, "lower_bound": 4040, "upper_bound": 4260 }
+      ]
+    },
+    "Tomato": {
+      "base_price": 1850,
+      "unit": "Quintal",
+      "msp": 0,
+      "volatility_score": "High (24.8%)",
+      "trend_direction": "Strong Bullish",
+      "mandis": [
+        { "name": "Azadpur Mandi, Delhi", "state": "Delhi", "distance_km": 140, "current_price": 2250, "arrival_volume_qtl": 18000, "daily_delta": "+₹400" },
+        { "name": "Ludhiana Sabzi Mandi", "state": "Punjab", "distance_km": 6, "current_price": 1850, "arrival_volume_qtl": 3200, "daily_delta": "Base" },
+        { "name": "Jalandhar Mandi", "state": "Punjab", "distance_km": 55, "current_price": 1980, "arrival_volume_qtl": 4100, "daily_delta": "+₹130" }
+      ],
+      "30_day_forecast": [
+        { "day": 1, "predicted_price": 1850, "lower_bound": 1720, "upper_bound": 1980 },
+        { "day": 7, "predicted_price": 2040, "lower_bound": 1890, "upper_bound": 2190 },
+        { "day": 14, "predicted_price": 2280, "lower_bound": 2080, "upper_bound": 2480 },
+        { "day": 21, "predicted_price": 2490, "lower_bound": 2240, "upper_bound": 2740 },
+        { "day": 30, "predicted_price": 2650, "lower_bound": 2360, "upper_bound": 2940 }
+      ]
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "source": "ICAR National Research Centre & IMD Agromet Threshold Models",
+  "crop_thresholds": {
+    "Wheat": {
+      "optimal_temp_c": [18.0, 26.0],
+      "optimal_humidity_pct": [45.0, 65.0],
+      "heat_stress_threshold_c": 33.0,
+      "frost_risk_threshold_c": 4.5,
+      "diseases": [
+        {
+          "name": "Yellow Rust (Puccinia striiformis)",
+          "trigger_temp_min": 10.0,
+          "trigger_temp_max": 22.0,
+          "trigger_humidity_min": 75.0,
+          "vpd_risk_range_kpa": [0.2, 0.6],
+          "incubation_hours": 36,
+          "estimated_loss_pct": 35.0,
+          "financial_loss_inr_per_acre": 14500,
+          "cure_en": "Spray Propiconazole 25% EC @ 200 ml/acre in 200L water immediately.",
+          "cure_hi": "तुरंत 200 मिली प्रोपिकोनाजोल 25% ईसी का प्रति एकड़ 200 लीटर पानी में घोल बनाकर छिड़काव करें।"
+        }
+      ]
+    },
+    "Tomato": {
+      "optimal_temp_c": [20.0, 28.0],
+      "optimal_humidity_pct": [50.0, 70.0],
+      "heat_stress_threshold_c": 36.0,
+      "frost_risk_threshold_c": 6.0,
+      "diseases": [
+        {
+          "name": "Late Blight (Phytophthora infestans)",
+          "trigger_temp_min": 18.0,
+          "trigger_temp_max": 26.0,
+          "trigger_humidity_min": 80.0,
+          "vpd_risk_range_kpa": [0.1, 0.4],
+          "incubation_hours": 24,
+          "estimated_loss_pct": 50.0,
+          "financial_loss_inr_per_acre": 22000,
+          "cure_en": "Apply Cymoxanil 8% + Mancozeb 64% WP @ 600g/acre or Copper Oxychloride. Avoid evening furrow irrigation.",
+          "cure_hi": "साइमोक्सानिल + मैंकोजेब 600 ग्राम प्रति एकड़ छिड़कें और खेत में शाम को पानी भरने से बचें।"
+        }
+      ]
+    },
+    "Cotton": {
+      "optimal_temp_c": [24.0, 34.0],
+      "optimal_humidity_pct": [40.0, 65.0],
+      "heat_stress_threshold_c": 40.0,
+      "frost_risk_threshold_c": 8.0,
+      "diseases": [
+        {
+          "name": "Pink Bollworm (Pectinophora gossypiella)",
+          "trigger_temp_min": 25.0,
+          "trigger_temp_max": 35.0,
+          "trigger_humidity_min": 65.0,
+          "vpd_risk_range_kpa": [0.8, 1.6],
+          "incubation_hours": 48,
+          "estimated_loss_pct": 40.0,
+          "financial_loss_inr_per_acre": 18000,
+          "cure_en": "Install 5 Pheromone Traps/acre. Spray Emamectin Benzoate 5% SG @ 100g/acre.",
+          "cure_hi": "प्रति एकड़ 5 फेरोमोन ट्रैप लगाएं व इमामेक्टिन बेंजोएट 5% एसजी 100 ग्राम प्रति एकड़ छिड़कें।"
+        }
+      ]
+    }
+  }
+}

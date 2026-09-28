@@ -1,0 +1,47 @@
+{
+  "source": "AIKosh Agriculture Market Infrastructure (AMI) & NCDC Storage Directory",
+  "storage_units": [
+    {
+      "id": "CS-PB-LDH-01",
+      "name": "Markfed Multi-Commodity Cold Chain Facility",
+      "district": "Ludhiana",
+      "state": "Punjab",
+      "distance_from_hub_km": 12.4,
+      "storage_type": "Multi-Chamber CA (Controlled Atmosphere)",
+      "total_capacity_mt": 5000,
+      "available_capacity_mt": 1420,
+      "rate_per_bag_monthly_inr": 25.0,
+      "suitable_crops": ["Potato", "Tomato", "Wheat (Seed grade)", "Apple", "Citrus"],
+      "subsidy_eligible": true,
+      "contact_phone": "+91 161 240 1920"
+    },
+    {
+      "id": "CS-PB-KHN-02",
+      "name": "Khanna Farmer Producer Co-op Warehouse",
+      "district": "Ludhiana",
+      "state": "Punjab",
+      "distance_from_hub_km": 19.8,
+      "storage_type": "Scientific Grain Silo / Ventilated Godown",
+      "total_capacity_mt": 12000,
+      "available_capacity_mt": 3600,
+      "rate_per_bag_monthly_inr": 18.0,
+      "suitable_crops": ["Wheat", "Paddy", "Maize", "Mustard"],
+      "subsidy_eligible": true,
+      "contact_phone": "+91 1628 225 410"
+    },
+    {
+      "id": "CS-HR-KRL-03",
+      "name": "Karnal Agro Cold Link Pvt Ltd",
+      "district": "Karnal",
+      "state": "Haryana",
+      "distance_from_hub_km": 38.0,
+      "storage_type": "Cold Storage & Pre-Cooling",
+      "total_capacity_mt": 8000,
+      "available_capacity_mt": 2100,
+      "rate_per_bag_monthly_inr": 28.0,
+      "suitable_crops": ["Basmati Rice", "Vegetables", "Paddy"],
+      "subsidy_eligible": true,
+      "contact_phone": "+91 184 228 9011"
+    }
+  ]
+}

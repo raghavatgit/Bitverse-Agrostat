@@ -1,0 +1,13 @@
+node_modules/
+dist/
+__pycache__/
+.venv/
+*.pyc
+*.zip
+*.rar
+*.pdf
+*.pptx
+*.log
+.env
+.env.*
+!.env.example

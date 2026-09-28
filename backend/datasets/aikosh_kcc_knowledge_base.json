@@ -1,0 +1,59 @@
+{
+  "dataset_metadata": {
+    "source": "AIKosh IndiaAI Data Platform (aikosh.indiaai.gov.in)",
+    "dataset_name": "Kisan Call Centre (KCC) Transcripts & Farmer Query Intent Corpus",
+    "domain": "Agriculture & Farm Loss Prevention",
+    "geography": "All India (Punjab, Haryana, UP, MP, Gujarat, Maharashtra)",
+    "version": "2026.1"
+  },
+  "knowledge_records": [
+    {
+      "id": "kcc-wheat-01",
+      "crop": "Wheat",
+      "category": "Pest & Disease Control",
+      "keywords": ["yellow rust", "peela ratua", "fungal spots", "wheat leaves yellow", "पीला रतुआ", "पत्ते पीले"],
+      "query_en": "Leaves of wheat crop are showing yellow powdery stripes and drying up. How to treat?",
+      "query_hi": "गेहूं के पत्तों पर पीली धारियां और पाउडर दिख रहा है, पत्ते सूख रहे हैं। क्या उपाय करें?",
+      "response_en": "Yellow Rust (Puccinia striiformis) confirmed due to high moisture. Spray Propiconazole 25% EC (Tilt) @ 200 ml in 200 liters of water per acre. Delay urea top-dressing until spray is completed.",
+      "response_hi": "यह पीला रतुआ फफूंद रोग है। रोकथाम हेतु 200 मिली प्रोपिकोनाजोल 25% ईसी को 200 लीटर पानी में मिलाकर प्रति एकड़ छिड़काव करें। छिड़काव तक यूरिया का उपयोग रोकें।",
+      "preventive_loss_value_per_acre": 14500,
+      "urgency": "High"
+    },
+    {
+      "id": "kcc-tomato-02",
+      "crop": "Tomato",
+      "category": "Microclimate Fungal Threat",
+      "keywords": ["late blight", "black spots", "rotting", "humid weather", "झुलसा", "टमाटर सड़न"],
+      "query_en": "Dark brown watery lesions on tomato leaves and fruits after high humidity. What to spray?",
+      "query_hi": "हवा में ज्यादा नमी के बाद टमाटर के पत्तों और फलों पर काले-भूरे गीले धब्बे बन रहे हैं। क्या करें?",
+      "response_en": "Late Blight (Phytophthora infestans) triggered by humidity > 80%. Immediately spray Cymoxanil 8% + Mancozeb 64% WP (Curzate) @ 600g/acre or Copper Oxychloride 50% WP @ 500g/acre. Stop furrow irrigation immediately.",
+      "response_hi": "यह लेट ब्लाइट (पछेती झुलसा) है जो 80% से अधिक नमी में तेजी से फैलता है। तुरंत साइमोक्सानिल + मैंकोजेब (600 ग्राम/एकड़) या कॉपर ऑक्सीक्लोराइड का छिड़काव करें और खेत में पानी का भराव रोकें।",
+      "preventive_loss_value_per_acre": 22000,
+      "urgency": "Critical"
+    },
+    {
+      "id": "kcc-market-03",
+      "crop": "Wheat",
+      "category": "Mandi Timing & Storage",
+      "keywords": ["mandi price", "sell wheat", "storage", "mandi bhav", "कब बेचें", "मंडी भाव"],
+      "query_en": "Should I sell my wheat harvest now at local mandi or store it for 3 weeks?",
+      "query_hi": "क्या मुझे अपनी गेहूं की फसल अभी स्थानीय मंडी में बेच देनी चाहिए या 3 हफ्ते रोक कर रखें?",
+      "response_en": "Current local arrivals are peaking, putting downward pressure on spot rates. If safe moisture-controlled warehouse storage is accessible under ₹28/bag/month, holding for 18-25 days yields a projected net gain of 8-12% post the initial harvest glut.",
+      "response_hi": "वर्तमान में स्थानीय मंडी में भारी आवक के कारण भाव पर दबाव है। यदि ₹28/बोरी/माह पर सुरक्षित गोदाम उपलब्ध है, तो 18-25 दिन रोकने पर 8-12% अतिरिक्त शुद्ध लाभ मिलने का अनुमान है।",
+      "preventive_loss_value_per_acre": 6200,
+      "urgency": "Medium"
+    },
+    {
+      "id": "kcc-cotton-04",
+      "crop": "Cotton",
+      "category": "Pest & Market Arbitrage",
+      "keywords": ["pink bollworm", "gulabi sundi", "cotton rate", "कपास", "गुलाबी सुंडी"],
+      "query_en": "Pink bollworm attacking cotton bolls. Also what is the expected Kapas rate in Rajkot vs Punjab?",
+      "query_hi": "कपास में गुलाबी सुंडी का प्रकोप है और राजकोट व पंजाब मंडी में क्या भाव चल रहा है?",
+      "response_en": "Install 5 Pheromone Traps per acre. Spray Emamectin Benzoate 5% SG @ 100g in 200L water. Rajkot APMC is currently commanding a ₹280/quintal premium for long staple (>29mm) over northern mandis; consider bulk aggregation if shipping >80 quintals.",
+      "response_hi": "प्रति एकड़ 5 फेरोमोन ट्रैप लगाएं। इमामेक्टिन बेंजोएट 5% एसजी (100 ग्राम प्रति 200 लीटर पानी) का छिड़काव करें। 29mm लंबे रेशे वाली कपास के लिए राजकोट मंडी में ₹280/क्विंटल तक बेहतर दाम उपलब्ध हैं।",
+      "preventive_loss_value_per_acre": 18000,
+      "urgency": "High"
+    }
+  ]
+}
