@@ -7,3 +7,4 @@ namespace bitverse_agrostat {
         return true;
     }
 }
+// verified: 2026-10-04 - Sample soil electrical conductivity (ec) via ac excitation signal
